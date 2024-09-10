@@ -1,58 +1,29 @@
-# Welcome to your Lovable project
+# Curriculum Vitae for Mats
 
-## Project info
+Mats' CV repo for GitHub Pages deployment @ https://mblomdahl.github.io/cv/
 
-**URL**: https://lovable.dev/projects/9e6c8378-087d-49e0-a6d8-e412c8390beb
 
-## How can I edit this code?
+## Project Description
 
-There are several ways of editing your application.
+The scope of this project is to establish a stand-alone presentation of my education, professional
+experience, and other work qualifications.  Apart from the user-facing presentation on the web,
+the repo intends to serve as a public record that showcases that I am able to perform ordinary
+development tasks, such as ...
 
-**Use Lovable**
+1. Thinking clearly and communicating the ideas via well-structured commits
+2. Implement basic Continuous Integration [CI] and Continuous Delivery [CD] via GitHub Actions
+3. Set up a Good project from scratch with my preferred frontend framework
+4. Implement a web design efficiently and well, demonstrating that ...
+   - [x] I know how to add multi-lingual support
+   - [x] I know how to do accessibility/WCAG
+   - [x] I know about styling/theming
+   - [x] I can do responsive design
+   - [x] I make content that is readable by robots and humans alike
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9e6c8378-087d-49e0-a6d8-e412c8390beb) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
-This project is built with .
+This [Lovable.dev project](https://lovable.dev/projects/9e6c8378-087d-49e0-a6d8-e412c8390beb) was built during a local AI workshop and it came with the following stack out-of-the-box:
 
 - Vite
 - TypeScript
@@ -60,10 +31,9 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/9e6c8378-087d-49e0-a6d8-e412c8390beb) and click on Share -> Publish.
+## Contributing
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Do You have some good ideas on how to make your CV into a website? A site that can serve as
+the master data and "single source of truth" for the profiles in LinkedIn and at different
+recruitment agencies? Open a ticket and share your ideas, assignable to `@mblomdahl`. ✨
