@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FileDown } from "lucide-react";
-import { generatePDF } from "react-to-pdf";
+import generatePDF from "react-to-pdf";
 import { useLanguage } from "@/hooks/useLanguage";
 import { translations } from "@/lib/translations";
 
