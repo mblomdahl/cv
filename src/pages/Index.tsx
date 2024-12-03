@@ -2,6 +2,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 import { translations } from "@/lib/translations";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
 
 const Index = () => {
@@ -14,9 +15,15 @@ const Index = () => {
       
       <main className="container mx-auto px-4 py-16 max-w-4xl">
         <section className="section-fade mb-16 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 text-[#D87D4A]">{t.name}</h1>
-          <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">{t.title}</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto italic">{t.intro}</p>
+          <div className="flex flex-col items-center mb-8">
+            <Avatar className="w-48 h-48 mb-6">
+              <AvatarImage src="https://www.kvadrat.se/wp-content/uploads/2023/11/Mats-Blomdahl-1-1024x683.jpg" alt="Mats Blomdahl" />
+              <AvatarFallback>MB</AvatarFallback>
+            </Avatar>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-[#D87D4A]">{t.name}</h1>
+            <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">{t.title}</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto italic">{t.intro}</p>
+          </div>
         </section>
 
         <section className="section-fade mb-16">
