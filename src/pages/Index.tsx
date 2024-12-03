@@ -1,4 +1,4 @@
-import { useLanguage } from "@/hooks/useLanguage";
+import { useSyncLanguage } from "@/hooks/useLanguage";
 import { translations } from "@/lib/translations";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { PdfExportButton } from "@/components/PdfExportButton";
@@ -8,7 +8,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Badge } from "@/components/ui/badge";
 
 const Index = () => {
-  const { language } = useLanguage();
+  const { language } = useSyncLanguage();
   const t = translations[language];
 
   return (
