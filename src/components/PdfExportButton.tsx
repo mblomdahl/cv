@@ -31,7 +31,7 @@ export const PdfExportButton = () => {
       onClick={handleDownload}
       variant="outline"
       size="sm"
-      className="fixed top-4 right-[8.5rem] glass-card z-50 gap-2"
+      className="fixed top-4 right-[8.5rem] glass-card z-50"
     >
       <FileDown className="h-4 w-4" />
       PDF
