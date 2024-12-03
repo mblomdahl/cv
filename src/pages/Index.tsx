@@ -54,6 +54,27 @@ const Index = () => {
           </Card>
         </section>
 
+        <section className="section-fade mb-16">
+          <Card className="glass-card">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-semibold mb-6 text-[#D87D4A]">{t.experience.title}</h3>
+              <div className="space-y-6">
+                {t.experience.jobs.map((job, index) => (
+                  <div
+                    key={index}
+                    className="slide-in bg-white/50 rounded-lg p-6 shadow-sm"
+                    style={{ animationDelay: `${index * 0.1}s` }}
+                  >
+                    <h4 className="text-xl font-semibold text-gray-800 mb-2">{job.company}</h4>
+                    <p className="text-lg text-gray-700 mb-2">{job.role}</p>
+                    <p className="text-sm text-gray-500">{job.period}</p>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         <section className="section-fade">
           <Card className="glass-card">
             <CardContent className="p-8">
