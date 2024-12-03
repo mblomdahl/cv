@@ -10,13 +10,10 @@ import { hmAdvancedAnalytics1 } from './hm-advanced-analytics-1';
 import { hmAdvancedAnalytics2 } from './hm-advanced-analytics-2';
 import { folksamKundnara } from './folksam-kundnara';
 import { kungligaBiblioteket } from './kungliga-biblioteket';
+import { svenskMaklarstatistik } from './svensk-maklarstatistik';
 
 export const jobs = {
   en: [
-    birdstepTechnology.en,
-    feministisktPerspektiv.en,
-    smithMicro.en,
-    birdstepTechnologyLead.en,
     svenskaKraftnat.en,
     truidAB.en,
     volvoCarMobility.en,
@@ -24,13 +21,14 @@ export const jobs = {
     hmAdvancedAnalytics1.en,
     hmAdvancedAnalytics2.en,
     folksamKundnara.en,
-    kungligaBiblioteket.en
+    kungligaBiblioteket.en,
+    smithMicro.en,
+    birdstepTechnologyLead.en,
+    birdstepTechnology.en,
+    feministisktPerspektiv.en,
+    svenskMaklarstatistik.en
   ],
   sv: [
-    birdstepTechnology.sv,
-    feministisktPerspektiv.sv,
-    smithMicro.sv,
-    birdstepTechnologyLead.sv,
     svenskaKraftnat.sv,
     truidAB.sv,
     volvoCarMobility.sv,
@@ -38,6 +36,11 @@ export const jobs = {
     hmAdvancedAnalytics1.sv,
     hmAdvancedAnalytics2.sv,
     folksamKundnara.sv,
-    kungligaBiblioteket.sv
+    kungligaBiblioteket.sv,
+    smithMicro.sv,
+    birdstepTechnologyLead.sv,
+    birdstepTechnology.sv,
+    feministisktPerspektiv.sv,
+    svenskMaklarstatistik.sv
   ]
 };
