@@ -1,6 +1,7 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import { translations } from "@/lib/translations";
 import { LanguageSelector } from "@/components/LanguageSelector";
+import { PdfExportButton } from "@/components/PdfExportButton";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -13,8 +14,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
       <LanguageSelector />
+      <PdfExportButton />
       
-      <main className="container mx-auto px-4 py-16 max-w-4xl">
+      <main id="cv-content" className="container mx-auto px-4 py-16 max-w-4xl">
         <section className="section-fade mb-16 text-center">
           <div className="flex flex-col items-center mb-8">
             <Avatar className="w-48 h-48 mb-6">
