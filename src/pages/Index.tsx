@@ -3,7 +3,8 @@ import { translations } from "@/lib/translations";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { motion } from "framer-motion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Badge } from "@/components/ui/badge";
 
 const Index = () => {
   const { language } = useLanguage();
@@ -58,19 +59,53 @@ const Index = () => {
           <Card className="glass-card">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-[#D87D4A]">{t.experience.title}</h3>
-              <div className="space-y-6">
+              <Accordion type="single" collapsible className="space-y-4">
                 {t.experience.jobs.map((job, index) => (
-                  <div
+                  <AccordionItem
                     key={index}
-                    className="slide-in bg-white/50 rounded-lg p-6 shadow-sm"
+                    value={`job-${index}`}
+                    className="slide-in bg-white/50 rounded-lg shadow-sm border-none"
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >
-                    <h4 className="text-xl font-semibold text-gray-800 mb-2">{job.company}</h4>
-                    <p className="text-lg text-gray-700 mb-2">{job.role}</p>
-                    <p className="text-sm text-gray-500">{job.period}</p>
-                  </div>
+                    <AccordionTrigger className="px-6 py-4 hover:no-underline">
+                      <div className="flex flex-col items-start text-left">
+                        <h4 className="text-xl font-semibold text-gray-800">{job.company}</h4>
+                        <p className="text-lg text-gray-700">{job.role}</p>
+                        <p className="text-sm text-gray-500">{job.period}</p>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="px-6 pb-4">
+                      <div className="space-y-4">
+                        <div className="prose max-w-none">
+                          <p className="text-gray-700 whitespace-pre-wrap">{job.description}</p>
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <h5 className="font-semibold text-gray-800">Technologies:</h5>
+                          <div className="flex flex-wrap gap-2">
+                            {job.technologies.split(", ").map((tech, techIndex) => (
+                              <Badge key={techIndex} variant="secondary" className="bg-gray-100">
+                                {tech}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <h5 className="font-semibold text-gray-800">Keywords:</h5>
+                          <div className="flex flex-wrap gap-2">
+                            {job.keywords.split(", ").map((keyword, keywordIndex) => (
+                              <Badge key={keywordIndex} variant="outline">
+                                {keyword}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
                 ))}
-              </div>
+              </Accordion>
             </CardContent>
           </Card>
         </section>
