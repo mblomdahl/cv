@@ -71,6 +71,24 @@ export const translations = {
           description: "Mats stepped in as stand-in to drive the central DevOps function forward in H&M Advanced Analytics Landscape [HAAL], while the regular manager was on extended leave:\n\n– Consolidated and automated provisioning of build agents for Jenkins\n\n– Configuration manager for HAAL Data Lake [HDL]\n\n– Guidance on CI/CD best practices for H&M's analytics team on the Azure platform",
           technologies: "Azure, HDInsight (Hive, Spark, Ambari, Jupyter), Jenkins, Python, SonarQube, Bash, Ubuntu, Docker, Ansible, Groovy, PyCharm, JIRA, BitBucket, reStructuredText, PostgreSQL, Apache Airflow, Machine Learning & Artificial Intelligence [AI]",
           keywords: "Process development, configuration management, application expert Jenkins"
+        },
+        {
+          company: "Folksam Kundnära",
+          role: "DevOps & Site Reliability",
+          period: "2018-03–2018-12",
+          year: "2018",
+          description: "Mats joined as the third member of the DevOps team for Z00, a proprietary platform for Pega distributed across 8 identical high availability environments for application development, testing and production.\n\nTogether with the other two team members, Mats was responsible for...\n\n– Driving infrastructure issues and ensuring 24/7 production stability within Folksam Kundnära IT (Claims, CRM, Life)\n\n– Developing, maintaining, monitoring and troubleshooting production/test/development environments on about 60 servers in security-classified operations\n\n– Requirements specification, order handling, verification and follow-up against Folksam's outsourcing partner\n\n– Mentoring and training Pega developers, test automation engineers, operations\n\n– GitLab, deployment pipelines, continuous delivery\n\n– Further development of an extensive codebase in SaltStack for building our complex IBM clusters (with 100 integrations, Stordator, MQ-XA and legacy systems)\n\nA selection of value-creating measures:\n\n1. Mats took on introducing continuous monitoring via the ELK stack; provisioning of Metricbeat on all servers for real-time monitoring of production, Log4j2-Filebeat setup for all servers so Pega developers/architects got their debug info directly via Kibana instead of RFI requests (March-April)\n\n2. Dynatrace monitoring all the way from browser to external backend APIs in system test, acceptance test and production (April-May)\n\n3. Ongoing training and operations improvement for outsourcing partner personnel (April-December)\n\n4. Extended infrastructure to about 80 servers and moved the new CRM system to Z00 production along with its 700 customer service agents (March-May)\n\n5. Extended support for Pega developer/architects to handle conflicts and failed database migrations in deployment pipelines (March-November)\n\n6. Installed, coached, reviewed and debugged a massive (outsourced) refactoring of the SaltStack code to support multiple clusters from one single environment, finally verified and put the solution into production (June-November)\n\n7. Simple maintainable routine of several weekly infrastructure deployments in the environments to avoid divergence from the master branch (April-November)\n\n8. Verified redundancy in the production cluster by shutting down half of the servers at normal load – and no one noticed any difference (November)\n\n9. Planning, deployment/backout plans, change management, implementation of 10 infrastructure updates in production, where 40% encountered unexpected problems due to e.g. additional complexity. All effectively mitigated. Total number of minutes of unplanned/business-disrupting downtime in Z00 production since Mats started: 0 minutes (March-November)",
+          technologies: "SaltStack, GitLab CI, PegaSystems PRPC, IBM DB2 (HADR), IBM WebSphere, IBM HTTP Server, Dynatrace, Elasticsearch/Logstash/Kibana, Redhat EL7, F5 Big-IP, AES, Artifactory, Flyway, Jython, SQL, Log4j2, Marval",
+          keywords: "Analysis, business change, process development, configuration management, application expert Elastic & GitLab"
+        },
+        {
+          company: "Kungliga Biblioteket",
+          role: "Senior DevOps Developer, level 4",
+          period: "2017-09–2018-02",
+          year: "2017 - 2018",
+          description: "Mats developed a new authorization service and OAuth2 provider – \"Libris Login\" – to support the launch of the new Libris XL platform; see https://github.com/libris/xl_auth/\n\nAlongside the work with Libris Login, Mats mainly focused on developing the team's best practices within Agile, TDD, CI/CD (Jenkins), provisioning and automation.",
+          technologies: "TDD, Flask, OAuth2, Postgres, Docker, Ansible, Vagrant, Jinja2, Django, Jenkins, Groovy, Beats, Logstash, Elasticsearch, Kibana, Nginx, Apache, Tomcat, Fabric",
+          keywords: "Analysis, test automation, system development, configuration management, application expert Docker"
         }
       ]
     },
@@ -154,6 +172,24 @@ export const translations = {
           description: "Mats gick in som stand-in för att driva den centrala DevOps-funktionen framåt i H&M Advanced Analytics Landscape [HAAL], medan ordinarie ansvarig var på långledighet:\n\n– Konsoliderade och automatiserade provisioning av bygg-agenter för Jenkins\n\n– Configuration manager för HAAL Data Lake [HDL]\n\n– Rådgivning inom CI/CD best practices för H&Ms analytiker-team på Azure-plattformen",
           technologies: "Azure, HDInsight (Hive, Spark, Ambari, Jupyter), Jenkins, Python, SonarQube, Bash, Ubuntu, Docker, Ansible, Groovy, PyCharm, JIRA, BitBucket, reStructuredText, PostgreSQL, Apache Airflow, Machine Learning & Artificial Intelligence [AI]",
           keywords: "Processutveckling, configuration management, applikationsexpert Jenkins"
+        },
+        {
+          company: "Folksam Kundnära",
+          role: "DevOps & Site Reliability",
+          period: "2018-03–2018-12",
+          year: "2018",
+          description: "Mats anslöt sig som tredje medlemmen i DevOps-teamet för Z00, en egenutvecklad plattform för Pega uppdelad på 8 identiska high availability-miljöer för applikationsutveckling, -test och -produktion.\n\nTillsammans med de andra två medlemmarna ansvarade Mats för ...\n\n– Driva infrastrukturfrågor och säkerställa produktionsstabilitet 24/7 inom Folksam Kundnära IT (Skador, CRM, Liv)\n\n– Utveckla, underhålla, övervaka och felsöka produktions-/test-/utvecklings-miljöer på ett 60-tal servrar i säkerhetsklassad drift\n\n– Kravställning, orderhantering, verifiering och uppföljning mot Folksams outsourcing-partner\n\n– Mentorera och utbilda Pega-utvecklare, testautomatiserare, operations\n\n– GitLab, deployment pipelines, continuous delivery\n\n– Vidareutveckling av en omfattande kodbas i SaltStack för att bygga upp våra komplexa IBM-kluster (med 100 integrationer, Stordator, MQ-XA och legacy-system)\n\nEtt urval av värdeskapande åtgärder:\n\n1. Mats tog på sig att införa löpande övervakning via ELK-stacken; provisionering av Metricbeat på alla servrar för realtidsövervakning av produktion, Log4j2-Filebeat setup för alla servrar så Pega-utvecklare/-arkitekter fick sin debuginfo direkt via Kibana istället för RFI-ärende (mars-april)\n\n2. Dynatrace-övervakning hela vägen från browser till externa backend-API:er i systemtest, acceptanstest och produktion (april-maj)\n\n3. Löpande utbildning och driftförbättring till personal hos outsourcing-partnern (april-december)\n\n4. Utökat infrastrukturen till ett 80-tal servrar och flyttat in nya CRM-systemet i Z00-produktion tillsammans med dess 700 kundtjänst (mars-maj)\n\n5. Utökat support till Pega-utvecklare/-arkitekter för att hantera konflikter och felande databasmigrationer i deployment-pipelines (mars-november)\n\n6. Installerat, coachat, reviewat och debuggat en massiv (outsourcad) refaktorering av SaltStack-koden för att stödja multipla kluster från en och samma miljö, slutligen verifierat och produktionssatt lösningen (juni-november)\n\n7. Envist upprätthållit rutin av flera veckovisa infrastruktur-deployments i miljöerna för att undvika divergens från master-branchen (april-november)\n\n8. Verifierat redundansen i produktionsklustret genom att stänga ner hälften av servrarna ett normalt dygn – och ingen märkte någon skillnad (november)\n\n9. Planering, deployment-/backout-planer, change management, genomförande för ett 10-tal infrastrukturuppdateringar i produktion, där ca 40 % stött på oväntade problem p.g.a. yttre komplexitet. Alla effektivt mitigerade. Totalt antal minuter oplanerad/verksamhetsstörande nedtid i Z00-produktion sedan Mats började: 0 minuter (mars-november)",
+          technologies: "SaltStack, GitLab CI, PegaSystems PRPC, IBM DB2 (HADR), IBM WebSphere, IBM HTTP Server, Dynatrace, Elasticsearch/Logstash/Kibana, Redhat EL7, F5 Big-IP, AES, Artifactory, Flyway, Jython, SQL, Log4j2, Marval",
+          keywords: "Kravanalys, verksamhetsförändring, processutveckling, configuration management, applikationsexpert Elastic & GitLab"
+        },
+        {
+          company: "Kungliga Biblioteket",
+          role: "Senior DevOps-utvecklare, nivå 4",
+          period: "2017-09–2018-02",
+          year: "2017 - 2018",
+          description: "Mats utvecklade en ny auktoriseringstjänst och OAuth2-provider – \"Libris Login\" – för att stödja lanseringen av nya Libris XL-plattformen; se https://github.com/libris/xl_auth/\n\nVid sidan om arbetet med Libris Login fokuserade Mats huvudsakligen på att utveckla teamets best practices inom Agile, TDD, CI/CD (Jenkins), provisioning och automatisering.",
+          technologies: "TDD, Flask, OAuth2, Postgres, Docker, Ansible, Vagrant, Jinja2, Django, Jenkins, Groovy, Beats, Logstash, Elasticsearch, Kibana, Nginx, Apache, Tomcat, Fabric",
+          keywords: "Kravanalys, testautomatisering, systemutveckling, configuration management, applikationsexpert Docker"
         }
       ]
     },
