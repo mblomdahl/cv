@@ -2,6 +2,7 @@ import { about } from './about';
 import { contact } from './contact';
 import { expertise } from './expertise';
 import { jobs } from './jobs';
+import { experience } from './experience';
 
 export const translations = {
   en: {
@@ -11,7 +12,7 @@ export const translations = {
     about: about.en,
     expertise: expertise.en,
     experience: {
-      title: "Work Experience",
+      title: experience.en.title,
       jobs: jobs.en
     },
     contact: contact.en
@@ -23,7 +24,7 @@ export const translations = {
     about: about.sv,
     expertise: expertise.sv,
     experience: {
-      title: "Arbetslivserfarenhet",
+      title: experience.sv.title,
       jobs: jobs.sv
     },
     contact: contact.sv
