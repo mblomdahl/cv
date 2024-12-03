@@ -11,6 +11,8 @@ import { hmAdvancedAnalytics2 } from './hm-advanced-analytics-2';
 import { folksamKundnara } from './folksam-kundnara';
 import { kungligaBiblioteket } from './kungliga-biblioteket';
 import { svenskMaklarstatistik } from './svensk-maklarstatistik';
+import { kungligaVetenskapsakademien } from './kungliga-vetenskapsakademien';
+import { stormforsDigitalbyra } from './stormfors-digitalbyra';
 
 export const jobs = {
   en: [
@@ -26,7 +28,9 @@ export const jobs = {
     birdstepTechnologyLead.en,
     birdstepTechnology.en,
     feministisktPerspektiv.en,
-    svenskMaklarstatistik.en
+    svenskMaklarstatistik.en,
+    kungligaVetenskapsakademien.en,
+    stormforsDigitalbyra.en
   ],
   sv: [
     svenskaKraftnat.sv,
@@ -41,6 +45,8 @@ export const jobs = {
     birdstepTechnologyLead.sv,
     birdstepTechnology.sv,
     feministisktPerspektiv.sv,
-    svenskMaklarstatistik.sv
+    svenskMaklarstatistik.sv,
+    kungligaVetenskapsakademien.sv,
+    stormforsDigitalbyra.sv
   ]
 };
