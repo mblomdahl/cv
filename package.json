@@ -1,8 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
-  "private": true,
+  "name": "mblomdahl-cv",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mblomdahl.github.io/cv/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
