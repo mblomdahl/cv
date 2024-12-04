@@ -31,6 +31,15 @@ This [Lovable.dev project](https://lovable.dev/projects/9e6c8378-087d-49e0-a6d8-
 - shadcn-ui
 - Tailwind CSS
 
+To get started, clone and install the dependencies and run the dev server:
+
+```sh
+git clone git@github.com:mblomdahl/cv.git mblomdahl-cv
+cd mblomdahl-cv/
+npm install
+npm run dev
+```
+
 
 ## Contributing
 
