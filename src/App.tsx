@@ -12,10 +12,10 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/cv">
         <Routes>
-          <Route path="/cv/:lang" element={<Index />} />
-          <Route path="/" element={<Navigate to="/cv/sv" replace />} />
+          <Route path="/:lang" element={<Index />} />
+          <Route path="/" element={<Navigate to="/sv" replace />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

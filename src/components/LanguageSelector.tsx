@@ -8,7 +8,7 @@ export const LanguageSelector = () => {
 
   const handleLanguageChange = (lang: 'en' | 'sv') => {
     setLanguage(lang);
-    navigate(`/cv/${lang}`);
+    navigate(`/${lang}`);
   };
 
   return (
