@@ -20,7 +20,7 @@ const Index = () => {
         <section className="section-fade mb-16 text-center">
           <div className="flex flex-col items-center mb-8">
             <Avatar className="w-48 h-48 mb-6">
-              <AvatarImage src="https://www.kvadrat.se/media/bvob5zuq/mats-blomdahl.jpg?width=768&v=1db45aa4a70e0b0" alt="Mats Blomdahl" />
+              <AvatarImage src="/cv/mats-blomdahl.jpg" alt="Mats Blomdahl" />
               <AvatarFallback>MB</AvatarFallback>
             </Avatar>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 text-[#D87D4A]">{t.name}</h1>
