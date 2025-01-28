@@ -10,10 +10,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   base: "/cv/",
-  plugins: [
-    react(),
-    mode === 'development' && componentTagger(),
-  ].filter(Boolean),
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

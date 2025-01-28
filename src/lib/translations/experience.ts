@@ -1,8 +1,8 @@
 export const experience = {
   en: {
-    title: "Work Experience"
+    title: "Work Experience",
   },
   sv: {
-    title: "Arbetslivserfarenhet"
-  }
+    title: "Arbetslivserfarenhet",
+  },
 };

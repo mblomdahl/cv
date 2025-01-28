@@ -6,7 +6,7 @@ export const LanguageSelector = () => {
   const { language, setLanguage } = useLanguage();
   const navigate = useNavigate();
 
-  const handleLanguageChange = (lang: 'en' | 'sv') => {
+  const handleLanguageChange = (lang: "en" | "sv") => {
     setLanguage(lang);
     navigate(`/${lang}`);
   };
@@ -14,17 +14,17 @@ export const LanguageSelector = () => {
   return (
     <div className="fixed top-4 right-4 flex gap-2 glass-card p-2 rounded-lg z-50">
       <Button
-        variant={language === 'en' ? 'default' : 'ghost'}
+        variant={language === "en" ? "default" : "ghost"}
         size="sm"
-        onClick={() => handleLanguageChange('en')}
+        onClick={() => handleLanguageChange("en")}
         className="transition-all duration-300"
       >
         EN
       </Button>
       <Button
-        variant={language === 'sv' ? 'default' : 'ghost'}
+        variant={language === "sv" ? "default" : "ghost"}
         size="sm"
-        onClick={() => handleLanguageChange('sv')}
+        onClick={() => handleLanguageChange("sv")}
         className="transition-all duration-300"
       >
         SV

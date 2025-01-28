@@ -1,7 +1,7 @@
-import { create } from 'zustand';
-import { useParams } from 'react-router-dom';
+import { create } from "zustand";
+import { useParams } from "react-router-dom";
 
-type Language = 'en' | 'sv';
+type Language = "en" | "sv";
 
 interface LanguageStore {
   language: Language;
@@ -9,7 +9,7 @@ interface LanguageStore {
 }
 
 export const useLanguage = create<LanguageStore>((set) => ({
-  language: 'sv',
+  language: "sv",
   setLanguage: (lang) => set({ language: lang }),
 }));
 
@@ -19,7 +19,7 @@ export const useSyncLanguage = () => {
   const { language, setLanguage } = useLanguage();
 
   // Update language state if URL parameter changes
-  if (lang && (lang === 'en' || lang === 'sv') && lang !== language) {
+  if (lang && (lang === "en" || lang === "sv") && lang !== language) {
     setLanguage(lang);
   }
 

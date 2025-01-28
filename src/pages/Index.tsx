@@ -15,7 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
       <LanguageSelector />
       <PdfExportButton />
-      
+
       <main id="cv-content" className="container mx-auto px-4 py-16 max-w-4xl">
         <section className="section-fade mb-16 text-center">
           <div className="flex flex-col items-center mb-8">
@@ -81,7 +81,7 @@ const Index = () => {
                         <div className="prose max-w-none">
                           <p className="text-gray-700 whitespace-pre-wrap">{job.description}</p>
                         </div>
-                        
+
                         <div className="space-y-2">
                           <h5 className="font-semibold text-gray-800">Technologies:</h5>
                           <div className="flex flex-wrap gap-2">
@@ -92,7 +92,7 @@ const Index = () => {
                             ))}
                           </div>
                         </div>
-                        
+
                         <div className="space-y-2">
                           <h5 className="font-semibold text-gray-800">Keywords:</h5>
                           <div className="flex flex-wrap gap-2">
@@ -120,14 +120,14 @@ const Index = () => {
                 <p className="text-lg font-medium">{t.contact.name}</p>
                 <p className="text-gray-600">{t.contact.role}</p>
                 <div className="space-y-2">
-                  <a 
-                    href={`tel:${t.contact.phone}`} 
+                  <a
+                    href={`tel:${t.contact.phone}`}
                     className="block text-gray-600 hover:text-[#D87D4A] transition-colors"
                   >
                     {t.contact.phone}
                   </a>
-                  <a 
-                    href={`mailto:${t.contact.email}`} 
+                  <a
+                    href={`mailto:${t.contact.email}`}
                     className="block text-gray-600 hover:text-[#D87D4A] transition-colors"
                   >
                     {t.contact.email}

@@ -4,13 +4,13 @@ export const contact = {
     name: "Lena Forvik",
     role: "Client Account Manager",
     phone: "0725026676",
-    email: "lena.forvik@kvadrat.se"
+    email: "lena.forvik@kvadrat.se",
   },
   sv: {
     title: "Kontakt",
     name: "Lena Forvik",
     role: "Kundansvarig säljare",
     phone: "0725026676",
-    email: "lena.forvik@kvadrat.se"
-  }
+    email: "lena.forvik@kvadrat.se",
+  },
 };
