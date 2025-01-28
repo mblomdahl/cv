@@ -1,8 +1,8 @@
-import { about } from './about';
-import { contact } from './contact';
-import { expertise } from './expertise';
-import { jobs } from './jobs';
-import { experience } from './experience';
+import { about } from "./about";
+import { contact } from "./contact";
+import { expertise } from "./expertise";
+import { jobs } from "./jobs";
+import { experience } from "./experience";
 
 export const translations = {
   en: {
@@ -13,9 +13,9 @@ export const translations = {
     expertise: expertise.en,
     experience: {
       title: experience.en.title,
-      jobs: jobs.en
+      jobs: jobs.en,
     },
-    contact: contact.en
+    contact: contact.en,
   },
   sv: {
     title: "Lead Developer",
@@ -25,8 +25,8 @@ export const translations = {
     expertise: expertise.sv,
     experience: {
       title: experience.sv.title,
-      jobs: jobs.sv
+      jobs: jobs.sv,
     },
-    contact: contact.sv
-  }
+    contact: contact.sv,
+  },
 };

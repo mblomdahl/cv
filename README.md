@@ -2,11 +2,10 @@
 
 Mats' CV repo for GitHub Pages deployment @ https://mblomdahl.github.io/cv/
 
-
 ## Project Description
 
 The scope of this project is to establish a stand-alone presentation of my education, professional
-experience, and other work qualifications.  Apart from the user-facing presentation on the web,
+experience, and other work qualifications. Apart from the user-facing presentation on the web,
 the repo intends to serve as a public record that showcases that I am able to perform ordinary
 development tasks, such as ...
 
@@ -19,7 +18,6 @@ development tasks, such as ...
    - [x] I know about styling/theming
    - [x] I can do responsive design
    - [x] I make content that is readable by robots and humans alike
-
 
 ## What technologies are used for this project?
 
@@ -39,7 +37,6 @@ cd mblomdahl-cv/
 npm install
 npm run dev
 ```
-
 
 ## Contributing
 

@@ -7,14 +7,14 @@ import { translations } from "@/lib/translations";
 export const PdfExportButton = () => {
   const { language } = useLanguage();
   const t = translations[language];
-  
+
   const handleDownload = () => {
     console.log("Generating PDF...");
     const options = {
       filename: `${t.name.toLowerCase().replace(" ", "-")}-cv-${language}.pdf`,
       page: {
-        margin: 20
-      }
+        margin: 20,
+      },
     };
 
     generatePDF(() => document.getElementById("cv-content"), options)

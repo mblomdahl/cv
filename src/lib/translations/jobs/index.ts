@@ -1,18 +1,18 @@
-import { birdstepTechnology } from './birdstep-technology';
-import { feministisktPerspektiv } from './feministiskt-perspektiv';
-import { smithMicro } from './smith-micro';
-import { birdstepTechnologyLead } from './birdstep-technology-lead';
-import { svenskaKraftnat } from './svenska-kraftnat';
-import { truidAB } from './truid-ab';
-import { volvoCarMobility } from './volvo-car-mobility';
-import { valmyndigheten } from './valmyndigheten';
-import { hmAdvancedAnalytics1 } from './hm-advanced-analytics-1';
-import { hmAdvancedAnalytics2 } from './hm-advanced-analytics-2';
-import { folksamKundnara } from './folksam-kundnara';
-import { kungligaBiblioteket } from './kungliga-biblioteket';
-import { svenskMaklarstatistik } from './svensk-maklarstatistik';
-import { kungligaVetenskapsakademien } from './kungliga-vetenskapsakademien';
-import { stormforsDigitalbyra } from './stormfors-digitalbyra';
+import { birdstepTechnology } from "./birdstep-technology";
+import { feministisktPerspektiv } from "./feministiskt-perspektiv";
+import { smithMicro } from "./smith-micro";
+import { birdstepTechnologyLead } from "./birdstep-technology-lead";
+import { svenskaKraftnat } from "./svenska-kraftnat";
+import { truidAB } from "./truid-ab";
+import { volvoCarMobility } from "./volvo-car-mobility";
+import { valmyndigheten } from "./valmyndigheten";
+import { hmAdvancedAnalytics1 } from "./hm-advanced-analytics-1";
+import { hmAdvancedAnalytics2 } from "./hm-advanced-analytics-2";
+import { folksamKundnara } from "./folksam-kundnara";
+import { kungligaBiblioteket } from "./kungliga-biblioteket";
+import { svenskMaklarstatistik } from "./svensk-maklarstatistik";
+import { kungligaVetenskapsakademien } from "./kungliga-vetenskapsakademien";
+import { stormforsDigitalbyra } from "./stormfors-digitalbyra";
 
 export const jobs = {
   en: [
@@ -30,7 +30,7 @@ export const jobs = {
     feministisktPerspektiv.en,
     svenskMaklarstatistik.en,
     kungligaVetenskapsakademien.en,
-    stormforsDigitalbyra.en
+    stormforsDigitalbyra.en,
   ],
   sv: [
     svenskaKraftnat.sv,
@@ -47,6 +47,6 @@ export const jobs = {
     feministisktPerspektiv.sv,
     svenskMaklarstatistik.sv,
     kungligaVetenskapsakademien.sv,
-    stormforsDigitalbyra.sv
-  ]
+    stormforsDigitalbyra.sv,
+  ],
 };
